@@ -1,0 +1,66 @@
+head, body{
+background-color: skyblue;
+  padding: 5px;
+  text-align: center;
+}
+
+footer{
+color: orange;
+background-color: darkblue;
+min-height: 200px;
+  padding: 5px;
+  text-align: center;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+
+#Text{
+  background-color: orange;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-color: blue;
+  border-style: outset;
+}
+
+#afbeelding{
+  width: 40%;
+height: auto;
+padding: 3px;
+margin: 1px;
+}
+
+#Formulier{
+  background-color: orange;
+  padding: 6px;
+  margin: auto;
+  width: 60%;
+  border-color: blue;
+  border-style: inset;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: inset 2px 2px 2px grey;
+}
+
+textarea{
+  height: 100px;
+  padding: 5px 4px;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+
+button:active{
+  border-radius: 3px;
+  box-shadow: inset 2px 4px 6px darkblue;
+}
